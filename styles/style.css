@@ -107,22 +107,52 @@
     font-weight: 900;
     font-style: italic;
   }
+/* nav style */
+header{
+    gap: 20px;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0px;
+    
+    padding: 24px 160px 24px 160px;
 
+    /* margin: 0px 160px 0px 160px; */
+
+
+}
+nav h6{
+    font-size: 32px;
+}
+.sign-in{
+    background-color: white;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    
+}
   /* Banner Styles */
 
 .banner{
     background: rgba(198, 228, 214, 1);
     display: flex;
     justify-content: space-between;
-    margin: 20px 80px 160px 160px;
+    margin: 0px 160px 0px 160px;
     border-radius: 24px;
-    /* gap: 16px; */
+    
 }
 .banner-container{
     padding: 117px 117px 60px 60px;
-    /* gap: 16px; */
-
-
+}
+.banner-container img{
+    width: 475px;
+    height: 400px;
 }
 .banner-title{
     font-size: 24px;
