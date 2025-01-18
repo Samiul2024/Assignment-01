@@ -305,9 +305,47 @@ border-radius: 24px 0px 0px 0px;
 .recent-news .card-details{
   gap: 12px;
 }
+
 .recent-news .card-details .card-title{
   font-family: "Fira Sans", serif;
-  
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+
+}
+
+.card-details .card-title, .card-description, .date-time {
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  /* margin: 12px; */
+}
+.card-title{
+  margin: 0px;
+}
+.news-section .card-image{
+  width: 408px;
+height: 306px;
+gap: 0px;
+border-radius: 24px 0px 0px 0px;
+opacity: 0px;
+
+}
+.card-details .card-description{
+  padding-right: 48px;
+  margin: 0px;
+}
+.card-details .card-button{
+  font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 32px;
 
 }
 .recent-news .card-button{
