@@ -307,27 +307,8 @@ border-radius: 24px 0px 0px 0px;
 }
 .recent-news .card-details .card-title{
   font-family: "Fira Sans", serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 38.4px;
+  
 
-}
-.recent-news .card-details .date-time{
-  font-family: Fira Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-.recent-news .card-details p .card-description{
-  font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: yellow;
-background: #000;
 }
 .recent-news .card-button{
   background-color: rgba(0, 106, 80, 1);
