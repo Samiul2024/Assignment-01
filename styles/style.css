@@ -107,6 +107,8 @@
     font-weight: 900;
     font-style: italic;
   }
+  /* body */
+
 /* nav style */
 header{
     gap: 20px;
@@ -178,4 +180,79 @@ nav h6{
 .btn-primary:hover{
     background-color: blue;
     color: yellowgreen;
+}
+
+/* The vision of future  */
+.vision{
+  margin: 80px 160px 80px 160px;
+  gap: 32px;
+
+}
+.vision-title{
+  /* font-weight: 700; */
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  line-height: 48px;
+}
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 24px;
+  margin: 32px 0px;
+}
+.card-1{
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+  padding-bottom: 24px;
+  /* padding: 24px 32px 24px 32px; */
+  padding: 32px;
+  gap: 24px;
+}
+.card-button{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 19.2px;
+  padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  border-style: none;
+
+}
+.card-1 .card-button{
+  background-color: rgba(84, 144, 245, 1);
+}
+.card-2{
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 16px;
+  /* padding-bottom: 24px; */
+  /* padding: 24px 32px 24px 32px; */
+  padding: 32px;
+  justify-content: space-between;
+}
+.card-2 .card-button{
+  background-color: rgba(9, 161, 92, 1);
+}
+.card-3{
+  background-color: rgba(247, 235, 207, 1);
+  border-radius: 16px;
+  /* padding-bottom: 24px; */
+  /* padding: 24px 32px 24px 32px; */
+  padding: 24px;
+}
+.card-3 .card-button{
+  background-color: rgba(255, 194, 57, 1);
+}
+.card-title{
+  font-size: 20px;
+  line-height: 24px;
+}
+.card-description{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
 }
