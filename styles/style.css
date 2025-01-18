@@ -359,3 +359,83 @@ margin-top: 32px;
 .recent-news .recent-card-2{
   flex-direction: row-reverse;
 }
+/* Donate Today styles */
+.donate{
+  margin: 80px 160px 80px 160px;
+}
+.donate-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.donate-description{
+  text-align: center;
+  /* background: red; */
+  gap: 24px;
+}
+.donate-description h4{
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 24px;
+/* gap: 24px; */
+}
+.donate-description .description{
+  margin: 0px 88px 0px 88px;
+  gap: 24px;
+}
+.fixed-amount{
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  gap: 24px;
+}
+.donate-container .btn-amount{
+  padding: 48px;
+  border-radius: 16px;
+  font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+background-color: rgba(255, 255, 255, 1);
+/* border-style: none; */
+
+}
+.donate-container .colored{
+  background-color: rgba(14, 14, 14, 0.15);
+  /* background: red; */
+}
+input{
+  width: Fixed (1,032px)px;
+height: Hug (64px)px;
+padding: 20px 40px 20px 40px;
+gap: 24px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+border-style: none;
+
+}
+.placeholder{
+  padding: 20px 380px 20px 380px;
+  background: rgba(255, 255, 255, 1);
+}
+input:hover{
+  background: lightblue;
+  color: red;
+}
+.donate-now{
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+color: rgba(255, 255, 255, 1);
+padding: 17px 34px 17px 34px;
+border-radius: 8px;
+background-color: rgba(0, 106, 80, 1);
+border-style: none;
+}
