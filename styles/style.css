@@ -142,6 +142,10 @@ nav h6{
     border-radius: 8px;
     
 }
+.sign-in:hover{
+  background: green;
+  color: orange;
+}
   /* Banner Styles */
 
 .banner{
@@ -225,6 +229,10 @@ nav h6{
   border-radius: 8px;
   border-style: none;
 
+}
+.card-container .card-button:hover{
+  background: red;
+  color: yellow;
 }
 .card-1 .card-button{
   background-color: rgba(84, 144, 245, 1);
@@ -395,6 +403,7 @@ margin-bottom: 24px;
   /* align-items: center; */
   gap: 24px;
 }
+
 .donate-container .btn-amount{
   padding: 48px;
   border-radius: 16px;
@@ -406,23 +415,31 @@ background-color: rgba(255, 255, 255, 1);
 /* border-style: none; */
 
 }
+.donate-container .btn-amount:hover{
+  background-color: rebeccapurple;
+  color: rgb(0, 255, 132);
+}
+
+}
 .donate-container .colored{
   background-color: rgba(14, 14, 14, 0.15);
   /* background: red; */
 }
 input{
-  width: Fixed (1,032px)px;
-height: Hug (64px)px;
-padding: 20px 40px 20px 40px;
-gap: 24px;
+width: 1032px;
 border: 0px 0px 1px 0px;
 opacity: 0px;
 border-style: none;
 
 }
 .placeholder{
-  padding: 20px 380px 20px 380px;
+  padding: 20px 30px 20px 30px;
   background: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
 }
 input:hover{
   background: lightblue;
@@ -438,4 +455,8 @@ padding: 17px 34px 17px 34px;
 border-radius: 8px;
 background-color: rgba(0, 106, 80, 1);
 border-style: none;
+}
+.donate-now:hover{
+  background-color: blueviolet;
+  color: rgb(20, 239, 20);
 }
