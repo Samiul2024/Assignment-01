@@ -396,12 +396,14 @@ margin-bottom: 24px;
 .donate-description .description{
   margin: 0px 88px 0px 88px;
   gap: 24px;
+  color: rgba(14, 14, 14, 0.7);
 }
 .fixed-amount{
   display: flex;
   /* justify-content: space-around; */
   /* align-items: center; */
   gap: 24px;
+  padding: 0px 105px 0px 105px;
 }
 
 .donate-container .btn-amount{
